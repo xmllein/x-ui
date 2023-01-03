@@ -1,0 +1,53 @@
+@import "../common/var.scss";
+
+
+// @include b(button) {
+//     @include m(primary) {
+
+//     }
+//     @include when(disabled) {
+//         color: red
+//     }
+// }
+
+// .x-button{}
+@mixin b($block) {
+    $B: $namespace+'-'+$block;
+
+    .#{$B} {
+        @content;
+    }
+}
+
+// .x-button.is-xxx
+@mixin when($state) {
+    @at-root {
+        &.#{$state-prefix + $state} {
+            @content;
+        }
+    }
+}
+
+// &--primary => .x-button--primary
+@mixin m($modifier) {
+    @at-root {
+        #{&+$modifier-separator+$modifier} {
+            @content;
+        }
+    }
+}
+
+// &__header  => .x-button__header
+@mixin e($element) {
+    @at-root {
+        #{&+$element-separator+$element} {
+            @content;
+        }
+    }
+}
+
+@mixin button-type($color, $background-color, $border-color) {
+    color: $color;
+    background-color: $background-color;
+    border-color: $border-color;
+}
