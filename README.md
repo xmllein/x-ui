@@ -33,3 +33,5 @@
 - [视频](https://www.bilibili.com/video/BV1NP411N7K1?p=1&vd_source=c5abf1ba032ca00c06ebba96e3ff445e)
 - [github 源码](https://github.com/xiazhongzheng/vue3-x-ui)
 - [高仿 element ui 从 0 到 1 开发一套完整支持按需加载的 vue ui 组件库](https://www.bilibili.com/video/BV1qL4y1j7eM/?spm_id_from=333.999.0.0&vd_source=c5abf1ba032ca00c06ebba96e3ff445e)
+- [vue3.2(setup 语法糖)+vite,x-ui](https://github.com/Down-1998/x-ui)
+- [ak-vue](https://github.com/337547038/ak-vue3)

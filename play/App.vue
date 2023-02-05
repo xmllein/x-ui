@@ -45,6 +45,7 @@
 
   <h2>checkbox</h2>
   <x-checkbox v-model="checkVal" @change="handleChange"> aaa </x-checkbox>
+  {{ checkVal }}
   <h2>chekbox-group</h2>
   {{ checkedList }}
   <x-checkbox-group v-model="checkedList" @change="handleChange">
