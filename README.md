@@ -11,11 +11,20 @@
 - `build:esm-bundle` 打包组件库 `esm` 格式组件库
 - `build:esm` 打包按需加载组件库组件库
 
+## 创建组件流程
+
+- `lerna create <package-name>` 创建组件库
+- `yarn install` 安装依赖
+- `build:esm-bundle`
+
 ## 完成进度
 
 - [x] Button 按钮组件
+- [x] ButtonGroup 按钮组组件
 - [x] Icon 图标组件
-- [ ] Checkbox 复选框组件
+- [x] Checkbox 复选框组件
+- [x] CheckboxGroup 复选框组组件
+- [x] Row/Col 栅格组件
 - [ ] Tranfer 穿梭框组件
 - [ ] Message 消息提示组件
 

@@ -1,0 +1,29 @@
+{
+  "name": "@x-ui/button-group",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "lein <xmllein@163.com>",
+  "homepage": "https://github.com/xmllein/x-ui#readme",
+  "license": "ISC",
+  "main": "lib/button-group.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmllein/x-ui.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@x-ui/button-group.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/xmllein/x-ui/issues"
+  }
+}
