@@ -30,6 +30,8 @@
 
 ## 参考资料
 
+- [基于 Lerna 管理 packages 的 Monorepo 项目最佳实践](https://my.oschina.net/vivotech/blog/3089030)
+- [现代前端工程化-基于 Monorepo 的 lerna 详解(从原理到实战)](https://blog.csdn.net/xgangzai/article/details/115423425)
 - [视频](https://www.bilibili.com/video/BV1NP411N7K1?p=1&vd_source=c5abf1ba032ca00c06ebba96e3ff445e)
 - [github 源码](https://github.com/xiazhongzheng/vue3-x-ui)
 - [高仿 element ui 从 0 到 1 开发一套完整支持按需加载的 vue ui 组件库](https://www.bilibili.com/video/BV1qL4y1j7eM/?spm_id_from=333.999.0.0&vd_source=c5abf1ba032ca00c06ebba96e3ff445e)
